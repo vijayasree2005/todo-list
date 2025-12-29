@@ -1,0 +1,38 @@
+body{
+     font-family: "Fascinate", system-ui;
+     margin: 0px;
+     padding: 0px;
+     background-color: skyblue;
+}
+#listhead{
+    text-align: center;
+    background-color: skyblue;
+    margin: 0px;
+    padding: 20px;
+
+}
+#inputbox{
+    text-align: center;
+    background: transparent;
+    width: 500px;
+    height: 50px;
+    animation: expandBox 2s forwards;
+    
+}
+#buttonstyle{
+    padding: 18px;
+    background: transparent;
+    border-radius: 20px;
+   
+}
+@keyframes expandBox {
+  from { width: 0; }
+  to { width: 300px; }
+}
+#createvalue{
+     text-align: center;
+     gap: 15px;
+    
+
+    
+}
